@@ -59,6 +59,7 @@ namespace Opengl
         public void Use()
         {
             GL.UseProgram(Handle);
+
         }
     }
 }
