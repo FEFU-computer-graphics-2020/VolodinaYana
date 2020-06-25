@@ -32,7 +32,7 @@ namespace OGL_tut
 
             string infoLogVert = GL.GetShaderInfoLog(shader);
             if (infoLogVert != System.String.Empty)
-                Console.WriteLine("Get some errors:\n", infoLogVert);
+                Console.WriteLine("Errorchiki:\n", infoLogVert);
 
             return shader;
         }
