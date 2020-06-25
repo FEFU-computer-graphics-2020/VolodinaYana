@@ -13,7 +13,7 @@ namespace OGL_tut
 
         static void Main(string[] args)
         {
-            using (Game game = new Game(800, 600, "Mew"))
+            using (Game game = new Game(600, 600, "Elsa"))
             {
                 game.Run(60.0);
             }
