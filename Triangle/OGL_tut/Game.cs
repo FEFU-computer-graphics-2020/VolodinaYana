@@ -58,7 +58,7 @@ namespace OGL_tut
 
             shader = new Shader("shader.vert", "shader.frag");
 
-            mesh = MeshL.LoadMesh("Elsa.obj");
+            mesh = MeshL.LoadMesh("Elsa.objj");
 
 
             GL.BindBuffer(BufferTarget.ArrayBuffer, _vbo);
